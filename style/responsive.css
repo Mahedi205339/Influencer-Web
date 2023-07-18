@@ -5,7 +5,7 @@
         align-items: center;
 
     }
-
+    
     .header-heading {
         color: #3A3A3A;
         font-family: Poppins;
@@ -24,6 +24,55 @@
         background-color: rgb(198, 197, 197);
     }
 
+    .header-container {
+        flex-direction: column-reverse;
+    }
+    
+    .header-image img {
+        width: 202px;
+        height: 190px;
+        flex-shrink: 0;
+    }
+
+    .header-content-heading {
+        text-align: center;
+        color: #3A3A3A;
+        font-family: Poppins;
+        font-size: 28px;
+        font-weight: 700;
+    }
+
+    .header-content-pera {
+        display: flex;
+        align-items: center;
+        color: #3A3A3A;
+        font-size: 14px;
+        font-weight: 500;
+        margin: auto;
+        width: 50%;
+    }
+    .btn-primary{
+        margin-left: 25%;
+        margin-top: 5%;
+    }
+
+    .banner-tag {
+     display: grid;
+     grid-template-columns: repeat(2 ,1fr);
+        margin-left: 10%;
+    }
+    .banner-headings{
+        font-size: 1.5rem;
+    }
+    .products {
+        grid-template-columns: repeat(1,1fr);
+        margin-left: 1rem;
+    }
+    .products {
+        width: 300px;
+        height: auto;
+    }
+
 }
 
 @media screen and (min-width:450.1px) and (max-width:900px) {
@@ -37,4 +86,5 @@
         font-size: 24px;
         font-weight: 700;
     }
+
 }
