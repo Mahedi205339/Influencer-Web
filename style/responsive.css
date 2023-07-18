@@ -1,0 +1,40 @@
+@media screen and (max-width:450px) {
+    .header-nav {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .header-heading {
+        color: #3A3A3A;
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    nav ul {
+        gap: 10px;
+        font-size: 16px;
+        font-weight: 500;
+        flex-direction: column;
+    }
+
+    nav ul:hover {
+        background-color: rgb(198, 197, 197);
+    }
+
+}
+
+@media screen and (min-width:450.1px) and (max-width:900px) {
+    .header-nav {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .header-heading {
+        text-align: center;
+        font-size: 24px;
+        font-weight: 700;
+    }
+}
